@@ -1,6 +1,6 @@
 <?php
 function generarFibonacci($numero){
-    $secuencia= array (1,1);
+    $secuencia= array (0,1);
     for ($i =2 ; $i< $numero; $i++){
         $secuencia [] = $secuencia[$i -1]+$secuencia [$i -2];   
  }
