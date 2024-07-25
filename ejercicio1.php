@@ -1,6 +1,7 @@
 <?php
 function esPalindromo($texto){
     $texto = strtolower($texto);
+    $texto = preg_replace('/\s/','' ,$texto);
     return $texto == strrev($texto);
 }
 
