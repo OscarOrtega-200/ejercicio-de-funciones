@@ -1,6 +1,6 @@
 <?php
 function ordenarArray($numero){
-    $numero = array_filter($numero, function($v) { return $v !== 0; }); 
+   
     $cantidad = count($numero);
     
     for ($i = 0; $i < $cantidad;$i++){
